@@ -1,5 +1,9 @@
-name: Build
+name: Build Dockerfile and Push to The Hub
 description: Build and push docker images with Docker Buildx
+author: Jordan Bigelow
+branding:
+  icon: anchor
+  color: blue
 inputs:
   DOCKERHUB_USERNAME:
     required: true
